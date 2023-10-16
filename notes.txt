@@ -1,6 +1,6 @@
 For running on sol cluster you need to create a mamba enviroment 
 
-rememebr to do load mamba/latest 
+remember to do load mamba/latest 
 then do source activate vima 
 
 
