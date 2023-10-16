@@ -1,0 +1,10 @@
+For running on sol cluster you need to create a mamba enviroment 
+
+rememebr to do load mamba/latest 
+then do source activate vima 
+
+
+make sure to have a certain version of setuptools installed 
+pip3 install setuptools==65.5.0
+pip3 install wheel==0.38.4   <-- this solves issues with openais gym env 
+
