@@ -44,18 +44,18 @@
     ```
 
 # Running the model with pretrained weights 
-    1. Follow the instructions to download the weights from the VIMA repo 
-    2. Inside the vima folder there  is a bash file that will run 1 task.  
-    3. Modify it to point at the correct weights. 
-    4. run said bash file and view the outputs 
-# TODOS 
-    1. Baseline Model Implementation
-        - The model was trained using behavior cloning 
-        - Trajectories made by the orcale and used for training are available at: https://huggingface.co/datasets/VIMA/VIMA-Data
-        - We would need to know the following 
-            - The behavior cloning training loop ( Someone can  do a simple stablebaselines tutorial to understand this?) 
-            - Loading and using trajectories  
-            -simple baselines link: https://stable-baselines.readthedocs.io/en/master/guide/pretrain.html
-    2. HER Training 
-       - HER traiining has two phases. We can observe how stablebaselines does the two phases 
-       - How can we do exploration?
+1. Follow the instructions to download the weights from the VIMA repo 
+2. Inside the vima folder there  is a bash file that will run 1 task.  
+3. Modify it to point at the correct weights. 
+4. run said bash file and view the outputs 
+# TODOS
+1. Baseline Model Implementation
+    - The model was trained using behavior cloning 
+    - Trajectories made by the orcale and used for training are available at: https://huggingface.co/datasets/VIMA/VIMA-Data
+    - We would need to know the following 
+        - The behavior cloning training loop ( Someone can  do a simple stablebaselines tutorial to understand this?) 
+        - Loading and using trajectories  
+        -simple baselines link: https://stable-baselines.readthedocs.io/en/master/guide/pretrain.html
+2. HER Training 
+    - HER training has two phases. We can observe how stablebaselines does the two phases 
+    - How can we do exploration?
