@@ -54,7 +54,8 @@
         - Trajectories made by the orcale and used for training are available at: https://huggingface.co/datasets/VIMA/VIMA-Data
         - We would need to know the following 
             - The behavior cloning training loop ( Someone can  do a simple stablebaselines tutorial to understand this?) 
-            - Loading and using trajectories 
+            - Loading and using trajectories  
+            -simple baselines link: https://stable-baselines.readthedocs.io/en/master/guide/pretrain.html
     2. HER Training 
        - HER traiining has two phases. We can observe how stablebaselines does the two phases 
        - How can we do exploration?
