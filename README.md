@@ -22,7 +22,7 @@
 5. Setup vima first https://github.com/vimalabs/VIMA
     - i.e run   
     ```Bash
-        pip install git+https://github.com/vimalabs/VIMA`
+        pip install git+https://github.com/ramon349/VIMA`
     ```
 6. Setup VIMABench
     ```Bash 
