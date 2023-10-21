@@ -29,7 +29,7 @@
         git clone https://github.com/vimalabs/VimaBench && cd VimaBench
         pip install -e .
     ```
-7. Do the following: THIS IS NEEDED FOR THE GUI TO WORK 
+7. Do the following: THIS IS NEEDED FOR THE GUI TO WORK  source: https://asurc.atlassian.net/wiki/spaces/RC/pages/1799487521/OpenGL+WebGL+Support+on+Firefox
     ```
      module load gcc-12.1.0-gcc-11.2.0
     module load mesa-22.0.2-gcc-11.2.0
