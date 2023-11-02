@@ -27,10 +27,25 @@ THIS SHOULD BE TRAINABLE
 obj_encoder : 
 - this is just the VIT model that will take the RGB view of the model and produce a vector representation 
 - it uses a bounding box_mlp i assume it is to somehow parse ? 
+- For our purposes we do not have to train this model  
 
 end_effector_encoder 
+- encodes the effector (motor)  observations into numerical values 
+
 obj_fusion_layer
+- fuses the encodings of the objects with the end_effector features 
 action_encoder
-prompt_embedding
+- Since the actions are essenially a dictionary. Every action is encoded  using seperate dict of nn.linear 
+- Takes the embeddigns of all the otehr possible actions and outputs them as one sincle encoding 
+
+prompt_embedding 
+- encode prompt using a wordEmbedding 
 t5_prompt_encoder
+- use a T5 model to encode the prompt 
 t5_prompt_encoder_postlayer
+
+
+
+OTHER interesting facts 
+observations are discretized into  bins.  i,e  50 bins for x,z movement, y movement has 100 
+- rotations have 50 or so unique ones 
