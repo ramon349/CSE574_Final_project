@@ -22,7 +22,9 @@
 5. Setup vima first https://github.com/vimalabs/VIMA
     - i.e run   
     ```Bash
-        pip install git+https://github.com/ramon349/VIMA`
+        git clone https://github.com/ramon349/VIMA
+        cd ./VIMA
+        pip install -e .
     ```
 6. Setup VIMABench
     ```Bash 
@@ -31,7 +33,7 @@
     ```
 7. Do the following: THIS IS NEEDED FOR THE GUI TO WORK  source: https://asurc.atlassian.net/wiki/spaces/RC/pages/1799487521/OpenGL+WebGL+Support+on+Firefox
     ```
-     module load gcc-12.1.0-gcc-11.2.0
+    module load gcc-12.1.0-gcc-11.2.0
     module load mesa-22.0.2-gcc-11.2.0
     ``` 
 8. Open firefox and  type  about:config
