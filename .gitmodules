@@ -1,0 +1,6 @@
+[submodule "VIMABench"]
+	path = VIMABench
+	url = git@github.com:ramon349/VIMABench.git
+[submodule "VIMA"]
+	path = VIMA
+	url = git@github.com:ramon349/VIMA.git
