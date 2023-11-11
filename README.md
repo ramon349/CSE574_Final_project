@@ -1,5 +1,9 @@
 # CSE574_Final_project
-
+# Setup ssh keys's in the cluster. 
+ - You need this so you can properly clone the repository and its sub modules 
+ - complete the two steps bellow 
+ - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
+ - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 # Setting up enviroment in the cluster 
 1. access the cluser using this weblink : https://ood01.sol.rc.asu.edu/pun/sys/dashboard/
 2.  In interactive apps select Sol Desktop.  
