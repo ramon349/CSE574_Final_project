@@ -1,3 +1,4 @@
 model_weights/
 model_logs/
 model_logs_demo/
+*.ipynb_checkpoints/
